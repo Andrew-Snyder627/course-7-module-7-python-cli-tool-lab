@@ -29,20 +29,3 @@ class User:
             if task.title == title:
                 return task
             return None
-
-
-class User:
-    def __init__(self, name):
-        # TODO: Store the user's name
-        # TODO: Initialize an empty list of tasks
-        pass
-
-    def add_task(self, task):
-        # TODO: Add the task to the user's task list
-        # TODO: Print a message confirming the task was added
-        pass
-
-    def get_task_by_title(self, title):
-        # TODO: Search for a task by its title in the user's task list
-        # TODO: Return the matching task or None
-        pass
