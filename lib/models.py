@@ -28,4 +28,4 @@ class User:
         for task in self.tasks:
             if task.title == title:
                 return task
-            return None
+        return None
